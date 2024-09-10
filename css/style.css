@@ -28,5 +28,48 @@ color: white;
 
 #menuinformacional {
     background-color: #eaece5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
 
+.icone {
+    margin: 50px 0 50px 100px;
+    padding: 16px;
+}
+
+#secaoVideo{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto; 
+}
+
+.textoinformativo {
+    display: flex;
+    align-items: center;
+}
+
+#tituloVideo {
+    color: #247BA0;
+    margin-top: 50px; 
+}
+
+/* #textoVideo {
+    display: flex;
+} */
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulo-carrossel {
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }

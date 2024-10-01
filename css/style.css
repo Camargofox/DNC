@@ -73,3 +73,13 @@ color: white;
     text-align: center;
     font-size: 25px;
 }
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards {
+    margin-left: 50px;
+}

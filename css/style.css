@@ -54,9 +54,6 @@ color: white;
     margin-top: 50px; 
 }
 
-/* #textoVideo {
-    display: flex;
-} */
 
 #video {
     margin: 50px 25px 50px 100px;
@@ -70,7 +67,7 @@ color: white;
 
 #titulo-carrossel {
     color: white;
-    text-align: center;
+    text-align: center; /* deixa no centro o texto "Mais de 500 alunos já iniciaram seus estudos"*/
     font-size: 25px;
 }
 
@@ -82,4 +79,16 @@ color: white;
 
 .cards {
     margin-left: 50px;
+}
+
+#setaEsquerda {
+    display: none; /*usa-se o display none para não aparecer o que está dentro da tag setaEsquerda*/
+}
+
+#Bruna{
+    display: none; /* usa-se o display none para não aparecer o bloco Bruna*/
+}
+
+.setas{
+    margin-top: 50%; /*ficará alinhado ao centro almofada*/
 }
